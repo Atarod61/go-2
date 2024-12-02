@@ -5,6 +5,6 @@ import "fmt"
 func main() {
 	var userName = "Azam"
 
-	fmt.Printf("Print Test injast...%T\n", userName)
+	fmt.Printf("Print Test injast...%v\n", userName)
 
 }
