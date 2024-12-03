@@ -16,7 +16,7 @@ func main() {
 	scanner.Scan()
 	userlnput := scanner.Text()
 	//Try to parse the user input as a number
-	if num, err := strconv.Atoi(userlnput): err == nil{
+	if num, err := strconv.Atoi(userlnput) ; err == nil{
 		fmt.Printf("%d is an integer\n", num)
 	}else if -, err := strconv.ParseFloat(userIuserInput, 64); err == nil {
 		fmt.Printf("%s float\n", userIuserInput)
