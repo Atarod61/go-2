@@ -2,8 +2,9 @@ package main
 
 func main() {
 	
-	for number := 0; <= 3; number = nunumber+1 {
-		
+	for number := 0; <= 3; number ++ { 
+		fmt.Println(nunumber)//0
+
 	}
 
 }
