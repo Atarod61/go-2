@@ -9,6 +9,6 @@ func main() {
 
 	for index_number, index_value := range originalNumbers {
 
-		fmt.Println(index_number, "=", index_value)
+		fmt.Println(index_number, "=", index_value+1)
 	}
 }
