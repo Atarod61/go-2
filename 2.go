@@ -8,7 +8,7 @@ func main() {
 
 	var nameee = "123"
 	//012
-	for asdasd -   ِ := range nameee {
+	for asdasd - , := range nameee {
 
 		fmt.Println("asdasd")
 
