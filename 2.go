@@ -6,11 +6,13 @@ import (
 
 func main() {
 
-	var -sina= "sina"
-	
+	var nameee = "123"
 
-		fmt.Println("-sina")
+	for number, sina := range nameee {
+
+		fmt.Println(number)
+		fmt.Println(sina)
 
 	}
 
-
+}
