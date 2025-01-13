@@ -9,5 +9,5 @@ func main() {
 	fmt.Println("This is mypointer address in memory:", mypointer)
 	fmt.Println(".........")
 	fmt.Println("This is number value:", number)
-	fmt.Println("This is mypointer value:", mypointer)
+	fmt.Println("This is mypointer value:", *mypointer)
 }
