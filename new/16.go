@@ -19,6 +19,6 @@ func main() {
 		bahman     = 11
 		esfand     = 12
 	)
-	maheman = farvardin
+	maheman := farvardin
 	fmt.Println(maheman)
 }
