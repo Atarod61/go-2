@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"unsafe"
+)
 
 func main() {
 
 	var A byte = "A"
-	fmt.Printf("value: %c, size: %d byte\n", A, unsafe.sizeof(A))
+	fmt.Printf("value: %c, size: %d byte\n", A, unsafe.Sizeof(A))
 }
