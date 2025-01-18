@@ -9,5 +9,10 @@ func main() {
 	fmt.Println(number1)
 	var number2 float64 = 10.5
 	fmt.Println(number2)
+	//.......................
+	var srt string = "hello word"
+	var srt1 string = "سلام دنیا"
+	fmt.Println(len(srt))
+	fmt.Println(len(srt1))
 
 }
