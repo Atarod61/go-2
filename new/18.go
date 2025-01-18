@@ -14,5 +14,8 @@ func main() {
 	var srt1 string = "سلام دنیا"
 	fmt.Println(len(srt))
 	fmt.Println(len([]rune(srt1)))
+	//......................
+	var bools bool = true
+	fmt.Println(bools)
 
 }
