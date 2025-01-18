@@ -15,5 +15,5 @@ func main() {
 	srt := "Hello"
 	persiansrt := "سلام"
 	fmt.Println(len(srt))
-	fmt.Println(len(persiansrt))
+	fmt.Println(len([]rune(persiansrt)))
 }
