@@ -13,6 +13,6 @@ func main() {
 	var srt string = "hello word"
 	var srt1 string = "سلام دنیا"
 	fmt.Println(len(srt))
-	fmt.Println(len(srt1))
+	fmt.Println(len([]rune(srt1)))
 
 }
