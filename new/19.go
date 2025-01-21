@@ -13,10 +13,13 @@ func main() {
 	// myvar := 30
 	//fmt.Println(myvar)
 	//===============
-	var (
-		number   int    = 10
-		name     string = "reza"
-		isactive bool   = false
-	)
-	fmt.Println(number, name, isactive)
+	//var (
+	//number   int    = 10
+	//name     string = "reza"
+	//isactive bool   = false
+	//)
+	//fmt.Println(number, name, isactive)
+	//============
+	var h, i, j = 10, 20, 30
+	fmt.Println(h, i, j)
 }
