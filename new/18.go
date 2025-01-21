@@ -17,5 +17,8 @@ func main() {
 	//......................
 	var bools bool = true
 	fmt.Println(bools)
+	//.....................
+	arr := [4]string{"ali", "reza", "mohammad", "yaser"}
+	fmt.Println(arr)
 
 }
