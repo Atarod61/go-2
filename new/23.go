@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -9,5 +10,5 @@ func main() {
 srt:
 	"hello, world"
 	subsrt := "world"
-	fmt.Println(strings.)
+	fmt.Println(strings.Contains())
 }
