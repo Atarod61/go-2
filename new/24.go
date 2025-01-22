@@ -6,6 +6,7 @@ func main() {
 	if age2 >= 18 {
 		println("yes! you can vote")
 	}else age2==17 {
-		
+		Println("no! next year you can vote")
+
 	}
 }
