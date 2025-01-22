@@ -24,5 +24,7 @@ func main() {
 	if num1 == num2 {
 		fmt.Println("num1 is equal to num2")
 	}
+	if num1<=num2 && num1==11
+	fmt.Println("num1 is less than or equal to num2")
 
 }
