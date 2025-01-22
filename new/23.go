@@ -16,5 +16,6 @@ func main() {
 	//fmt.Println(strings.Count(srt, subsrt))
 	srt := "hello, world"
 	fmt.Println(strings.HasPrefix(srt, "hello"))
+	fmt.Println(strings.HasSuffix(srt, "world"))
 
 }
