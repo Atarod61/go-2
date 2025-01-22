@@ -7,8 +7,9 @@ import (
 
 func main() {
 
-srt:
-	"Hello, world"
+	srt := "hello, world"
+
 	subsrt := "world"
 	fmt.Println(strings.Contains(srt, subsrt))
+
 }
