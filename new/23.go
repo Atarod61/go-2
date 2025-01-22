@@ -31,5 +31,9 @@ func main() {
 	//fmt.Println(strings.Replace(srt, old, new, -1))
 	srt := "hello, world"
 	old := "world"
+
+	srt1 := "this is srt1"
+	srt2 := "this is srt1"
 	fmt.Println(strings.Compare(srt, old))
+	fmt.Println(strings.Compare(srt1, srt2))
 }
