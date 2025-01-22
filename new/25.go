@@ -1,6 +1,8 @@
 package main
 
-func main(){
+import "fmt"
+
+func main() {
 	//x:= 3
 	//witch x {
 	//case 1: fmt.Println("sunday")
@@ -20,23 +22,31 @@ func main(){
 	//default: fmt.Println("we have worng")
 	//}
 	//Println("codes,,,,")
-	x:= 3
-	witch x {
-	case 1: fmt.Println("sunday")
-	
-	case 2: fmt.Println("Monday")
-	
-	case 3: fmt.Println("Tuesday")
-	fallthrough
-	case 4:	fmt.Println("Wednesday")
+	x := 3
+	switch x {
+	case 1:
+		fmt.Println("sunday")
 
-	case 5: fmt.Println("thursday")
-	
-	case 5: fmt.Println("friday")
-	
-	case 5: fmt.Println("saturday")
-	
-	default: fmt.Println("we have worng")
+	case 2:
+		fmt.Println("Monday")
+
+	case 3:
+		fmt.Println("Tuesday")
+		fallthrough
+	case 4:
+		fmt.Println("Wednesday")
+
+	case 5:
+		fmt.Println("thursday")
+
+	case 6:
+		fmt.Println("friday")
+
+	case 7:
+		fmt.Println("saturday")
+
+	default:
+		fmt.Println("we have worng")
 	}
-	Println("codes,,,,")
+	fmt.Println("codes,,,,")
 }
