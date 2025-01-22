@@ -15,4 +15,5 @@ func main() {
 
 	fmt.Printf("Type %T\n", srt)
 	fmt.Printf("Type %T\n", bool)
+	fmt.Printf("Hexadecimal %x", num)
 }
