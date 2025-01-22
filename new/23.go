@@ -17,7 +17,10 @@ func main() {
 	//srt := "hello, world"
 	//fmt.Println(strings.HasPrefix(srt, "hello"))
 	//fmt.Println(strings.HasSuffix(srt, "world"))
-	srt := "hello, world"
-	fmt.Println(strings.Index(srt, "world"))
+	//srt := "hello, world"
+	//fmt.Println(strings.Index(srt, "world"))
+	srt := []string{"azam", "atarod"}
+	srt2 := "*"
+	fmt.Println(strings.Join(srt, srt2))
 
 }
