@@ -11,5 +11,5 @@ func main() {
 	fmt.Printf("this is my string %s\n", srt)
 	fmt.Printf("this is my integer %d\n", num)
 	fmt.Printf("this is my float %f\n", numfloat)
-	fmt.Printf("this is my bool %t\n", bool)
+	fmt.Printf("this is my boolean %t\n", bool)
 }
