@@ -34,6 +34,9 @@ func main() {
 
 	srt1 := "this is srt1"
 	srt2 := "this is srt1"
+	srt3 := "this is srt1 2333455"
+	srt4 := "this is srt1"
 	fmt.Println(strings.Compare(srt, old))
 	fmt.Println(strings.Compare(srt1, srt2))
+	fmt.Println(strings.Compare(srt3, srt4))
 }
