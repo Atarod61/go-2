@@ -7,9 +7,12 @@ import (
 
 func main() {
 
-	srt := "hello, world"
+	//srt := "hello, world"
 
-	subsrt := "world"
-	fmt.Println(strings.Contains(srt, subsrt))
+	//subsrt := "world"
+	//fmt.Println(strings.Contains(srt, subsrt))
+	srt := "banana"
+	subsrt := "a"
+	fmt.Println(strings.Count(srt, subsrt))
 
 }
