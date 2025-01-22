@@ -22,7 +22,11 @@ func main() {
 	//srt := []string{"azam", "atarod"}
 	//srt2 := "*"
 	//fmt.Println(strings.Join(srt, srt2))
-	srt := "a, b, c, d, e, f, g, h, i, i"
-	subsrt := ","
-	fmt.Println(strings.Split(srt, subsrt))
+	//srt := "a, b, c, d, e, f, g, h, i, i"
+	//subsrt := ","
+	//fmt.Println(strings.Split(srt, subsrt))
+	srt := "hello, world"
+	old := "world"
+	new := "Iran"
+	fmt.Println(strings.Replace(srt, old, new, -1))
 }
