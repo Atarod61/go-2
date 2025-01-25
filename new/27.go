@@ -9,5 +9,5 @@ func main() {
 	fmt.Println(arr[2])
 	arr[2] = 55
 	fmt.Println(arr[2])
-
+	fmt.Println(len(arr))
 }
