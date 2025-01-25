@@ -38,9 +38,16 @@ func main() {
 	//for k, v := range mymap {
 	//fmt.Println("key:", k, "value:", v)
 	//}
-	srt := "my string array"
-	for i, v := range srt {
-		fmt.Println("index:", i, "value:", string(v))
+	//srt := "my string array"
+	//for i, v := range srt {
+		//fmt.Println("index:", i, "value:", string(v))
+	//}
+for i:= 0; i<100, i++{
+	if i<10{
+		fmt.Println(i)
 	}
-
+	if i>= 10{
+		break
+	}
+}
 }
