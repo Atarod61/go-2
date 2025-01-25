@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	//for i := 1; i <= 10; i++ {
@@ -32,9 +34,13 @@ func main() {
 	//for i, nums := range num {
 	//	fmt.Println("index", i, "var in arrey", nums)
 	//}
-	mymap := map[string]string{"a": "apple", "b": "banana", "c": "chery"}
-	for k, v := range mymap {
-		fmt.Println("key:", k, "value:", v)
+	//mymap := map[string]string{"a": "apple", "b": "banana", "c": "chery"}
+	//for k, v := range mymap {
+	//fmt.Println("key:", k, "value:", v)
+	//}
+	srt := "my string array"
+	for i, v := range srt {
+		fmt.Println("index:", i, "value:", string(v))
 	}
 
 }
