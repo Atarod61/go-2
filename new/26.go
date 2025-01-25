@@ -28,9 +28,13 @@ func main() {
 	//}
 
 	//}
-	num := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	for i, nums := range num {
-		fmt.Println("index", i, "var in arrey", nums)
+	//num := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	//for i, nums := range num {
+	//	fmt.Println("index", i, "var in arrey", nums)
+	//}
+	mymap := map[string]string{"a": "apple", "b": "banana", "c": "chery"}
+	for k, v := range mymap {
+		fmt.Println("key:", k, "value:", v)
 	}
 
 }
