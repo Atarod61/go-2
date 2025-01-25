@@ -52,11 +52,12 @@ func main() {
 	//}
 	for i := 0; i < 100; i++ {
 		if i < 10 {
+			fmt.Println(i)
 			continue
 		}
 		if i >= 10 {
 			break
 		}
-		fmt.Println(i)
+
 	}
 }
