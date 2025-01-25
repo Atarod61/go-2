@@ -19,14 +19,18 @@ func main() {
 	//break
 	//}
 	//}
-	i := 1
-	for {
-		fmt.Println(i)
-		i++
-		if i > 10 {
-			break
-		}
+	//i := 1
+	//for {
+	//fmt.Println(i)
+	//	i++
+	//if i > 10 {
+	//break
+	//}
 
+	//}
+	num := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
+	for i, nums := range num {
+		fmt.Println("index", i, "var in arrey", nums)
 	}
 
 }
