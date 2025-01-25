@@ -23,6 +23,9 @@ func main() {
 	for {
 		fmt.Println(i)
 		i++
+		if i > 10 {
+			break
+		}
 
 	}
 
