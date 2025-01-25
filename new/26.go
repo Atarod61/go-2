@@ -40,14 +40,14 @@ func main() {
 	//}
 	//srt := "my string array"
 	//for i, v := range srt {
-		//fmt.Println("index:", i, "value:", string(v))
+	//fmt.Println("index:", i, "value:", string(v))
 	//}
-for i:= 0; i<100, i++{
-	if i<10{
-		fmt.Println(i)
+	for i := 0; i < 100; i++ {
+		if i < 10 {
+			fmt.Println(i)
+		}
+		if i >= 10 {
+			break
+		}
 	}
-	if i>= 10{
-		break
-	}
-}
 }
