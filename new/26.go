@@ -42,12 +42,21 @@ func main() {
 	//for i, v := range srt {
 	//fmt.Println("index:", i, "value:", string(v))
 	//}
+	//	for i := 0; i < 100; i++ {
+	//if i < 10 {
+	//	fmt.Println(i)
+	//}
+	//	if i >= 10 {
+	//break
+	//}
+	//}
 	for i := 0; i < 100; i++ {
 		if i < 10 {
-			fmt.Println(i)
+			continue
 		}
 		if i >= 10 {
 			break
 		}
+		fmt.Println(i)
 	}
 }
