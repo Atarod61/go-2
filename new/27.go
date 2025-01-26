@@ -15,18 +15,16 @@ func main() {
 	//}
 	//arr := [5]int{1, 2, 3, 4, 5}
 	//for i := 0; i < len(arr); i++ {
-		//fmt.Println(arr[i])
+	//fmt.Println(arr[i])
 	//}
-//	1 2 3
-//	4 5 6 
+	//	1 2 3
+	//	4 5 6
 	//7 8 9
 	arr := [3][3]int{
 		{1, 2, 3},
 		{4, 5, 6},
 		{7, 8, 9},
-		fmt.Println(arr[1][2])
-		fmt.Println(arr[1][1])
 	}
-
-
+	fmt.Println(arr[1][2])
+	fmt.Println(arr[1][1])
 }
