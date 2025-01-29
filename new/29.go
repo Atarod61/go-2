@@ -10,5 +10,9 @@ func main() {
 	myslice := myarray[:]
 	//println(myslice)
 	fmt.Println(myslice)
+	myarray[1] := 100
+	myarray[2] := 200
+	fmt.Println(myarray)
+	fmt.Println(myslice)
 
 }
