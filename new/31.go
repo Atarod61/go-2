@@ -9,4 +9,5 @@ func main() {
 	arr2[1] = 200
 	arr2[2] = 300
 	fmt.Printf("this is arr1 :%d , arr2:%d\n", arr1, arr2)
+	print(&arr1, ",", &arr2)
 }
