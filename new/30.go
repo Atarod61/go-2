@@ -18,4 +18,7 @@ func main() {
 	//fmt.Println(len(myslice_PartofArray3))
 	//fmt.Println(cap(myslice_PartofArray3))
 	fmt.Println(myslice_PartofArray3[2])
+	myslice_PartofArray3 = append(myslice_PartofArray3, 324)
+	fmt.Println(myslice_PartofArray3)
+
 }
