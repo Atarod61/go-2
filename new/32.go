@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	slices := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	//newslice := make([]int, len(slices))
@@ -7,6 +9,9 @@ func main() {
 	//n := copy(newslice, slices)
 	//println(n)
 	//fmt.Printf("this is a slice %d", newslice)
+	fmt.Printf("this is a slice %d", slices)
+	myfunc(slices)
+	fmt.Printf("this is a slice after change in function %d", slices)
 
 }
 func myfunc(myslice []int) {
