@@ -14,7 +14,8 @@ func main() {
 	fmt.Println(myslice_PartofArray2)
 
 	myslice_PartofArray3 := myarray[2:]
-	fmt.Println(myslice_PartofArray3)
-	fmt.Println(len(myslice_PartofArray3))
-	fmt.Println(cap(myslice_PartofArray3))
+	//fmt.Println(myslice_PartofArray3)
+	//fmt.Println(len(myslice_PartofArray3))
+	//fmt.Println(cap(myslice_PartofArray3))
+	fmt.Println(myslice_PartofArray3[2])
 }
