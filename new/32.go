@@ -9,9 +9,9 @@ func main() {
 	//n := copy(newslice, slices)
 	//println(n)
 	//fmt.Printf("this is a slice %d", newslice)
-	fmt.Printf("this is a slice %d", slices)
+	fmt.Printf("this is a slice %d\n", slices)
 	myfunc(slices)
-	fmt.Printf("this is a slice after change in function %d", slices)
+	fmt.Printf("\n this is a slice after change in function %d", slices)
 
 }
 func myfunc(myslice []int) {
