@@ -17,4 +17,5 @@ func main() {
 	myslice2[2] = 300
 	myslice2[3] = 600
 	fmt.Printf("this is slice1 %d, slice2 %d\n", myslice1, myslice2)
+	print(&myslice1, ",", &myslice2)
 }
