@@ -12,4 +12,7 @@ func main() {
 
 	fmt.Println(myslice_PartofArray)
 	fmt.Println(myslice_PartofArray2)
+
+	myslice_PartofArray3 := myarray[2:]
+	fmt.Println(myslice_PartofArray3)
 }
