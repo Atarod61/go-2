@@ -9,7 +9,7 @@ func main() {
 	newslice := make([]int, len(slices))
 	fmt.Printf("this is slice %d\n", newslice)
 	n := copy(newslice, slices)
-	print(n)
+	println(n)
 	fmt.Printf("this is a slice %d", newslice)
 
 }
