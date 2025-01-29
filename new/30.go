@@ -8,11 +8,12 @@ func main() {
 
 	fmt.Println(myslice_fullarray)
 	myslice_PartofArray := myarray[1:3]
-	myslice_PartofArray2 := myarray[0:2]
+	myslice_PartofArray2 := myarray[0:2] //1,2
 
 	fmt.Println(myslice_PartofArray)
 	fmt.Println(myslice_PartofArray2)
 
 	myslice_PartofArray3 := myarray[2:]
 	fmt.Println(myslice_PartofArray3)
+	fmt.Println(len(myslice_PartofArray3))
 }
