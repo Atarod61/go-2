@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	slices := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -16,5 +18,5 @@ func main() {
 }
 func myfunc(myslice []int) {
 	slice[0] = 10000
-	slice[2] = 2323233
+	slice[2] = 232323
 }
