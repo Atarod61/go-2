@@ -17,6 +17,9 @@ func main() {
 
 }
 func myfunc(myslice []int) {
+	newslice := make([]int, len(slices))
+	fmt.Printf("this is slice %d\n", newslice)
+	n := copy(newslice, slices)
 	slice[0] = 10000
 	slice[2] = 232323
 }
