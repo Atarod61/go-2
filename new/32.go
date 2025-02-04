@@ -17,8 +17,8 @@ func main() {
 
 }
 func myfunc(myslice []int) {
-	newslice := make([]int, len(slice))
-	copy(newslice, slice)
+	newslice := make([]int, len(myslice))
+	copy(newslice, myslice)
 	newslice[0] = 10000
 	newslice[2] = 232323
 }
