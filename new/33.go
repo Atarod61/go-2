@@ -9,7 +9,7 @@ func main() {
 	//slice2 := []int{4, 5, 6}
 	//slice1 = append(slice1, slice2...)
 	//fmt.Println(slice1)
-	numbers := []int{1, 2, 3}
+	numbers := []int{1, 2, 3, 4, 5}
 	part1 := numbers[:2]
 	part2afterappend := append([]int{10}, numbers[2:]...)
 	atlast := append(part1, part2afterappend...)
