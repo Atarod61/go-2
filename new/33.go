@@ -11,7 +11,7 @@ func main() {
 	//fmt.Println(slice1)
 	numbers := []int{1, 2, 3}
 	part1 := numbers[:2]
-	part2afterappend := append([]int(10), numbers[2:]...)
+	part2afterappend := append([]int{10}, numbers[2:]...)
 	atlast := append(part1, part2afterappend...)
 	fmt.Println(atlast)
 }
