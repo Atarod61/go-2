@@ -12,5 +12,5 @@ func main() {
 
 }
 func sum(number1 int, number2 int) int {
-	return numnumber1 + nunumber2
+	return number1 + number2
 }
