@@ -7,6 +7,10 @@ func main() {
 	fmt.Println(mysum)
 	mymin := Minus(5, 2)
 	fmt.Println(mymin)
+	mydiv := Divided(5, 2)
+	fmt.Println(mydiv)
+	mymu := Multiplied(3, 3)
+	fmt.Println(mymu)
 
 }
 func sum(a int, b int) int {
