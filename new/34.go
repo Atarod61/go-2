@@ -8,4 +8,10 @@ func main() {
 	fmt.Println(personmap[234567])
 	fmt.Println(personmap[3456])
 
+	personmap2 := map[int]string{}
+	personmap2[124567] = "mostafa"
+	personmap2[456789] = "hassan"
+
+	fmt.Println(personmap2[124567])
+
 }
