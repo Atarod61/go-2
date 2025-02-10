@@ -5,6 +5,8 @@ import "fmt"
 func main() {
 	mysum := sum(2, 2)
 	fmt.Println(mysum)
+	mymin := Minus(5, 2)
+	fmt.Println(mymin)
 
 }
 func sum(a int, b int) int {
