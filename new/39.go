@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	r, b, m := Divide(10, 3)
+	//r, b, m := Divide(10, 3)
+	r, b, m := Divide(10, 2)
 	fmt.Println(r, b, m)
 
 }
