@@ -8,7 +8,7 @@ func main() {
 }
 func sum(nums ...int) int {
 	total := 0
-	for_, num := range nums {
+	for-و num := range nums {
 		total = total + num
 
 	}
