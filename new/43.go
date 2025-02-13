@@ -1,10 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+)
 
 func main() {
 
-	defer fmt.Println("this is first")
-	fmt.Println("this is second")
-	defer fmt.Println("this is third")
+	//defer fmt.Println("this is first")
+	//fmt.Println("this is second")
+	//defer fmt.Println("this is third")
+	file, err := os.Open("test.tex")
+	if err != nil {
+		fmt.Println("my err:", err)
+	}
 }
