@@ -19,4 +19,7 @@ func main() {
 	x := 10
 	defer fmt.Println("this is whit defer", x)
 
+	x = 20
+	fmt.Println("this is whitout defer", x)
+
 }
