@@ -13,5 +13,7 @@ func main() {
 	file, err := os.Open("test.tex")
 	if err != nil {
 		fmt.Println("my err:", err)
+		return
 	}
+	fmt.Println("file opened:", file)
 }
