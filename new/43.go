@@ -11,9 +11,11 @@ func main() {
 	//fmt.Println("this is second")
 	//defer fmt.Println("this is third")
 	file, err := os.Open("test.tex")
+	defer file.Close()
 	if err != nil {
 		fmt.Println("my err:", err)
 		return
 	}
 	fmt.Println("file opened:", file)
+
 }
