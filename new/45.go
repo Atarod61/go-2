@@ -22,6 +22,7 @@ func main() {
 	}
 	fmt.Println(car2)
 	carwithcomstracture := Newcar("paykan", "1898", "Irankhodro")
+	fmt.Println(carwithcomstracture)
 
 }
 func Newcar(name string, createDate string, companyname string) *car {
