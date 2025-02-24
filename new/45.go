@@ -23,8 +23,10 @@ func main() {
 	//fmt.Println(car2)
 	//carwithcomstracture := Newcar("paykan", "1898", "Irankhodro")
 	//fmt.Println(carwithcomstracture)
-	car4 := car{name: "Pride"}
-	fmt.Println(car4)
+	//car4 := car{name: "Pride"}
+	//fmt.Println(car4)
+	car5 := car{"Pride", "1999", "sipa"}
+	fmt.Println(car5)
 
 }
 
