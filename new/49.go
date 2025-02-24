@@ -6,7 +6,8 @@ type persons struct {
 	age  int
 }
 type Employ struct {
-	code string
+	code      string
+	TIMESTAMP int64
 }
 
 func main() {
