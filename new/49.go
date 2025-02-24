@@ -7,6 +7,11 @@ type persons struct {
 	Id   int
 	age  int
 }
+type Maneger struct {
+	code    string
+	company string
+	persons
+}
 type Employee struct {
 	code      string
 	TIMESTAMP int64
@@ -19,7 +24,7 @@ func main() {
 		code:      "12",
 		TIMESTAMP: 10,
 		persons: persons{
-			name: john,
+			name: "john",
 			Id:   1,
 			age:  25,
 		},
