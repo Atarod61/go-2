@@ -15,5 +15,11 @@ func main() {
 		company:    "Benz",
 	}
 	fmt.Println(car1)
+	car2 := &car{
+		name:       "Mercedes",
+		createDate: "2020",
+		company:    "Mercedes",
+	}
+	fmt.Println(car2)
 
 }
