@@ -10,13 +10,13 @@ type Rectangle struct {
 func CaculateArea(width, height float64) float64 {
 	return width * height
 }
+
 func (r Rectangle) Displayinfo() string {
-	return fmt.Sprintf("Width:%2f, Height: %2f, Area: %2f", r.width, r.height, r.CaculateArea(r.width, r.height))
+	return fmt.Sprintf("Width:%.2f, Height: %.2f, Area: %.2f", r.width, r.height, CaculateArea(r.width, r.height))
 }
 
 func main() {
 	r := Rectangle{width: 5, height: 3}
 	result := r.Displayinfo()
 	fmt.Println(result)
-
 }
