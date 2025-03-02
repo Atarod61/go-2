@@ -14,9 +14,8 @@ func (c car) Display() string {
 }
 
 func main() {
-	mycar:=car{Brand:"TOyoTa", Model:"corolla", year:2020}
-	info:= mycar.Display(
-		fmt.Println(info)
-	)
+	mycar := car{Brand: "TOyoTa", Model: "corolla", year: 2020}
+	info := mycar.Display()
+	fmt.Println(info)
 
 }
