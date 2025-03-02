@@ -14,5 +14,6 @@ func (c car) Display() string {
 }
 
 func main() {
+	car:={Brand:"TOyoTa", Model:"corolla", year:2020}
 
 }
