@@ -9,7 +9,7 @@ import (
 //"fmt"
 
 func main() {
-	result, error := createError(true)
+	result, error := createError(false)
 	if error != nil {
 		fmt.Println(error)
 	}
