@@ -5,6 +5,8 @@ type MyError struct {
 	message string
 }
 
+func (e MyError) Error() string
+
 func main() {
 
 }
